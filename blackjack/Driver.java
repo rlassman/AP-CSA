@@ -1,17 +1,8 @@
 public class Driver {
 	public static void main(String[] args) {
-		LassmanLiuStrategy s = new LassmanLiuStrategy();
-		BlackjackDealer test = new BlackjackDealer();
-		ComputerBlackjackPlayer c = new ComputerBlackjackPlayer(s);
-		System.out.println(test.playBlackjack(c, 1000));
-		System.out.println(test.playBlackjack(c, 1000));
-		System.out.println(test.playBlackjack(c, 1000));
-		System.out.println(test.playBlackjack(c, 1000));
-		System.out.println(test.playBlackjack(c, 1000));
-		System.out.println(test.playBlackjack(c, 1000));
-		/*HumanBlackjackPlayer testPlayer = new HumanBlackjackPlayer();
+		HumanBlackjackPlayer testPlayer = new HumanBlackjackPlayer();
 		System.out.println(test.playBlackjack(testPlayer, 6));
-		/*MySimpleStrategy s = new MySimpleStrategy();
+		MySimpleStrategy s = new MySimpleStrategy();
 		System.out.println(s.hit(15, 11, true));
 		System.out.println(s.hit(15, 11, false)); 
 		System.out.println(s.hit(11, 10, false));
@@ -20,7 +11,7 @@ public class Driver {
 		System.out.println(s.hit(17, 2, true));
 		BlackjackDealer test = new BlackjackDealer();
 		ComputerBlackjackPlayer c = new ComputerBlackjackPlayer(s);
-		System.out.println(test.playBlackjack(c, 1000));*/
+		System.out.println(test.playBlackjack(c, 1000));
 	}
 }
 /*BlackjackDealer test = new BlackjackDealer();
